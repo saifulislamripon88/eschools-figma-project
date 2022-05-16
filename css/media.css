@@ -1,0 +1,460 @@
+
+/* ============================================= */
+/* ============================================= */
+@media (max-width: 575.98px) { 
+        /* header design start  */
+
+         .img_logo {
+            width: 160px;
+            height: 46px;
+        }
+
+        .menu ul li a{
+            margin: 0px 16px;
+        }
+    
+        .btn_nav {
+            padding: 7px 14px;
+            margin-left: 12px;
+        
+     }
+
+
+     /* header end */
+
+     
+
+     
+
+
+     /* banner start here */
+
+     .banner_content h1 {
+        padding-right: 48px;
+        font-size: 34px;
+        line-height: 42px;
+
+     }
+
+     .banner_content a {
+        padding: 10px 18px;
+    }
+    .banner_content p {
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+
+
+     .banner_images {
+        padding: 0px 50px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+     }
+
+
+
+ /* feature section start here */
+ .feature_item h3 {
+    font-size: 20px;
+    line-height: 30px;
+ }
+
+ /* course section start here */
+
+ .course h1 {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+
+.course_item h3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* testimonial section start here */
+
+.testi_image{
+    text-align: center !important;
+}
+
+.testi_image img {
+    width: 102px;
+    height: 102px;
+}
+
+.testimonial h1 {
+    font-size: 28px;
+    line-height: 50px;
+    
+}
+
+.testi_content p {
+    line-height: 28px;
+}
+
+
+/* footer section start here */
+
+.footer_content p{
+    text-align: center;
+    padding-right: 0;
+    padding-bottom: 30px;
+
+}
+
+.footer_links {
+   text-align: center;
+   padding-left: 0;
+   padding-bottom: 30px;
+}
+
+.copy_p {
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ================================================ */
+/* ================================================= */
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+        /* header design start  */
+
+        .img_logo {
+            width: 160px;
+            height: 46px;
+        }
+
+        .menu ul li a{
+            margin: 0px 16px;
+        }
+    
+        .btn_nav {
+            padding: 9px 19px;
+        
+     }
+
+
+
+     /* banner section start */
+     .banner_content h1 {
+        padding-right: 0px;
+        font-size: 30px;
+        line-height: 50px;
+     }
+
+    .banner_images {
+       padding: 0 70px;
+       margin-bottom: 50px;
+       margin-top: 20px;
+   }
+
+   .banner_content a {
+    padding: 10px 18px;
+}
+
+/* feature section start here */
+
+.feature_item{
+    padding: 60px 30px;
+}
+
+.feature_item h3 {
+    font-size: 21px;
+    line-height: 30px;
+
+ }
+
+ /* course section start here */
+
+ .course h1 {
+    font-size: 30px;
+    line-height: 20px;
+}
+
+.course_item h3 {
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.course_item .btn_nav3 {
+    padding: 7px 16px;
+    line-height: 18px;
+  
+}
+
+/* testimonial section design start here */
+
+.testi_image{
+    text-align: center !important;
+}
+
+
+.testi_image img {
+    width: 110px;
+    height: 110px;
+}
+
+
+.testimonial h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.testi_content p {
+    line-height: 28px;
+    padding-bottom: 30px;
+
+}
+
+
+/* footer section start here */
+
+.footer_content p{
+    text-align: center;
+    padding-right: 0;
+    padding-bottom: 30px;
+
+}
+
+.footer_links {
+   text-align: center;
+   padding-left: 0;
+   padding-bottom: 30px;
+}
+
+
+}
+
+
+
+
+
+
+ /* ================================================ */
+/* ================================================= */
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header design start  */
+
+    .img_logo {
+        width: 180px;
+        height: 54px;
+    }
+
+    .menu ul li a{
+        margin: 0px 16px;
+    }
+
+    .btn_nav {
+        padding: 9px 19px;
+    
+ }
+
+
+ /* bannere start here */
+
+ .banner_content h1 {
+     padding-right: 0px;
+    font-size: 35px;
+ }
+
+ .banner_images {
+    padding: 0 80px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+
+.banner_content a {
+    padding: 10px 18px;
+}
+
+/* feature section start here  */
+
+.feature_item {
+    padding: 50px 30px;
+}
+
+.feature_item h3 {
+    font-size: 20px;
+}
+
+
+/* course section start here */
+
+.course h1 {
+    font-size: 34px;
+    line-height: 31px;
+   
+}
+
+.course_item h3 {
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.course_item .btn_nav3 {
+    padding: 7px 16px;
+    line-height: 18px;
+  
+}
+
+/* testimonial section design start here */
+
+.testi_image{
+    text-align: center !important;
+}
+
+.testimonial h1 {
+    font-size: 34px;
+    line-height: 40px;
+
+}
+
+/* footer sections start here */
+
+.footer_content p{
+    font-size: 15px;
+    padding-right: 0;
+
+}
+
+.footer_links {
+    padding-left: 38px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================ */
+/* ================================================= */
+
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    /* banner start */
+       .banner_content h1 {
+           padding-right: 0;
+        font-size: 44px !important;
+       
+       }
+
+       .menu ul li a {
+        margin: 0px 14px;
+    }
+
+    .btn_nav {
+        padding: 10px 22px;
+
+    }
+
+
+
+       /* feature section start here */
+
+       .feature_item {
+        padding: 25px 14px;
+       }
+
+       .feature_item h3 {
+        font-size: 20px;
+        line-height: 30px;
+       }
+
+
+       /* course section start here */
+       .course_icon a {
+        font-size: 15px;
+       }
+
+
+
+       /* testiomnial section start here */
+
+       .testi_content p {
+        line-height: 23px;
+       }
+
+     /* footer section design start here*/
+     .footer_links ul li a {
+        line-height: 28px;
+      
+    }
+
+    .footer_content p {
+        padding-right: 0px;
+    
+    }
+
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================ */
+/* ================================================= */
+
+
+ /* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .footer_content p {
+        padding-right: 55px;
+    }
+ 
+}
+
+
+ /* Extra large devices (extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  
+ }

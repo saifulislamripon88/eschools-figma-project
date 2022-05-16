@@ -1,0 +1,344 @@
+
+/* fonts */
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/allfonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/allfonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/allfonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/allfonts/Roboto-Regular.ttf);
+}
+/* common css*/
+
+body{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}    
+
+/* header section start header */
+header{
+    padding: 10px 0;
+    background: #F0FFF0;
+
+
+}
+
+.img_logo{
+    width:198px;
+    height:59px;
+
+}
+
+
+.nav_toogle:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 1px;
+}
+
+
+
+/* .menu{
+ 
+} */
+
+.menu ul li a{
+    margin: 0 30px;
+    color:#000000 !important;
+
+}
+
+.menu ul li a:hover{
+    color: #FD511A !important;
+}
+
+
+.btn_nav{
+    background-color: #21B573;
+    padding:12px 28px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 19px;
+    align-items: center;
+    border-radius: 33px;
+    color: #ffffff !important;
+    transition: .3s;
+}
+
+.btn_nav:hover{
+    background: #FD511A;
+}
+
+
+/* header section end here  */
+
+
+/* banner section start here */
+.banner{
+    background-color: #F0FFF0;
+    padding-bottom: 65px;
+
+}
+
+.banner .banner_content h5{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FD511A;
+    line-height: 24px;
+    
+}
+
+.banner_content h1{
+    padding-right: 37px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #000000;
+
+}
+
+.banner_content h1 span{
+    color: #21B573;
+}
+.banner_content p{
+    margin-bottom: 15px;
+    color: #6C6B6B;
+    line-height: 36px;
+    
+}
+
+
+.banner_content a{
+    background: #21B573;
+    font-family: 'Roboto';
+    padding: 14px 32px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 33px;
+    line-height: 19px;
+    transition: .3s;
+
+}
+
+.banner_content a:hover{
+    background-color: #FD511A;
+  
+}
+
+
+/* .banner_images{
+
+} */
+
+
+/* banner section end here */
+
+
+
+/* feature section design start here */
+.feature{
+    padding: 50px 0 20px;
+
+}
+
+.feature_item{
+    background-color: #F8FFFB;
+    padding: 40px 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+
+.feature_item:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+   
+}
+
+.feature_item .feature_img img{
+    width: 66px;
+    height: 85px;
+}
+
+.feature_item h3{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #413960;
+    line-height: 36px;
+}
+
+.feature_item p{
+    color: #585859;
+}
+
+/* feature section design end here */
+
+
+/* course section design start here */
+.course{
+    margin-bottom: 30px;
+}
+
+.course h1{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+    text-align: center;
+    
+
+}
+
+.course_item{
+    padding: 20px;
+    margin-bottom: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgb(0 0 0 / 10%);
+    border-radius: 18px;
+    border: none;
+
+}
+
+.course_item h3{
+    margin-top: 18px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #413960;
+    line-height: 36px;
+}
+
+.course_item p{
+color: #585859;  
+}
+
+.course_item .btn_nav3{
+    padding: 8px 23px;
+    background: #21B573;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-radius: 33px;
+    color: #ffffff;
+    line-height: 19px;
+    transition: .3s;
+}
+
+.course_item .btn_nav3:hover{
+    background-color: #FD511A;
+}
+
+
+.course_icon{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.course_icon a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #585859;
+    text-decoration:none;
+    padding-bottom: 15px;
+}
+/* course section design end here */
+
+
+/* testimonial section design start here */
+.testimonial{
+    padding-bottom: 60px;
+
+}
+
+.testimonial h1{
+    margin:40px 0;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    line-height: 54px;
+    text-align: center;
+
+}
+.testi_image img{
+    width:120px;
+    height:120px;
+}
+
+.testi_content{
+    padding-left: 30px;
+
+}
+
+.testi_content p{
+     margin-top: 20px;
+     line-height: 30px;
+     color: #000000;
+}
+
+/* testimonial section end here */
+
+
+/* footer section design start here */
+
+.footer{
+    padding-top: 60px;
+    background-color:#282531;
+    
+}
+
+.footer_content{
+
+}
+
+.footer_content p{
+    color: #FFFFFF;
+    line-height: 30px;
+    padding-right: 90px;
+
+}
+
+.footer_links {
+    padding-left: 50px;
+}
+
+.footer_links h4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+
+}
+
+.footer_links ul li a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: none;
+    color:#ffffff;
+
+
+}
+
+.copy_p{
+    padding-top: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: #CDCDCD;
+    margin-bottom: 0;
+}
+/* footer section design end here */
